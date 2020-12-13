@@ -46,7 +46,8 @@
                       android:layout_marginLeft="10dp"
                       android:layout_marginBottom="5dp">
 
-            <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+            <TextView android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
                       android:text="Product Name"
                       android:id="@+id/product_name_bottomSheet"
                       android:textSize="17sp"

@@ -28,7 +28,8 @@
               android:layout_marginBottom="100dp"
               android:hint="Password"
               android:inputType="text"
-              tools:ignore="TextFields" android:autofillHints=""/>
+              tools:ignore="TextFields"
+              android:autofillHints=""/>
 
     <Button
             android:id="@+id/btn_login"
