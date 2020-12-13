@@ -86,8 +86,10 @@
                     card_view:layout_constraintStart_toEndOf="@+id/product_price"
                     android:layout_marginLeft="20dp"
                     android:layout_marginStart="20dp"
-                    tools:ignore="SmallSp" card_view:layout_constraintEnd_toEndOf="parent"
-                    android:layout_marginRight="10dp" android:layout_marginEnd="10dp"/>
+                    tools:ignore="SmallSp"
+                    card_view:layout_constraintEnd_toEndOf="parent"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginEnd="10dp"/>
 
             <ToggleButton
                     android:layout_width="30dp"
