@@ -95,9 +95,6 @@ class HomeFragment : Fragment() {
 
 
 
-
-
-
 //
 //    private fun setUpViewPager(){
 //
