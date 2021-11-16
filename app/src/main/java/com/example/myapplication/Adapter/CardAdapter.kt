@@ -47,7 +47,6 @@ class CardAdapter(private val context : Context, private val list: ArrayList<Pro
                 }else{
                     favToggle.setBackgroundResource(R.drawable.ic_favorite_uncheck)
                 }
-
             }
 
             buy.setOnClickListener {
@@ -62,15 +61,12 @@ class CardAdapter(private val context : Context, private val list: ArrayList<Pro
                 fragment.show(fragmentManager, fragment.tag)
 
             }
-
        }
-
     }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): CardAdapter.MyViewHolder {
        val view = LayoutInflater.from(context).inflate(R.layout.product_card, parent, false)
         return MyViewHolder(view)
-
     }
 
 
@@ -82,7 +78,5 @@ class CardAdapter(private val context : Context, private val list: ArrayList<Pro
         holder.setData(list[position])
 //        val menu = Menu[position]
 //        holder.setData(menu, position)
-
     }
-
 }
